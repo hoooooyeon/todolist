@@ -1,9 +1,11 @@
 .hidden {
   display: none;
 }
+/**/
 .exclming {
   color: rgb(240, 12, 12);
 }
+/**/
 .chking {
   color: rgba(0, 0, 0, 0.3);
   text-decoration: line-through;
@@ -18,6 +20,7 @@ button,
   cursor: pointer;
 }
 
+/**/
 html,
 body {
   width: 100%;
@@ -27,6 +30,7 @@ body {
   overflow-x: hidden;
   font-size: 16px;
 }
+/**/
 body > header {
   width: 100%;
   height: 69px;
@@ -38,17 +42,20 @@ body > header {
   border-bottom: 1px solid #e0e7e9;
   background-color: white;
 }
+/**/
 body > header h1 {
   font-size: 30px;
   margin: 0;
   color: #354649;
 }
+/**/
 main {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
 }
+/**/
 main nav {
   background-color: white;
   width: 250px;
@@ -59,34 +66,42 @@ main nav {
   z-index: 999;
   transition: width 0.3s;
 }
+/**/
 .iconDiv {
   width: 35px;
   height: 35px;
   text-align: center;
   display: inline-block;
 }
+/***/
 main nav .iconDiv {
   margin: 5px 0 0 6px;
 }
+/**/
 .modal .iconDiv {
   letter-spacing: 4px;
 }
+/**/
 .item .iconDiv {
   position: relative;
   top: 20px;
 }
+/**/
 .iconDiv:hover {
   border-radius: 100px;
   background-color: #e0e7e9;
   cursor: pointer;
 }
+/**/
 main nav div i {
   font-size: 25px;
   margin-top: 5px;
 }
+/**/
 main nav ul {
   padding: 0;
 }
+/***/
 main nav ul li {
   list-style-type: none;
   line-height: 50px;
@@ -94,20 +109,23 @@ main nav ul li {
   padding: 0;
   cursor: pointer;
 }
+/**/
 main nav ul li:hover {
   border-radius: 0 20px 20px 0;
   background-color: #e0e7e9;
 }
+/***/
 main nav ul li i {
   font-size: 25px;
   margin: 0 30px 0 13px;
 }
+/***/
 main nav ul li p {
   display: inline-block;
   font-size: 16px;
   margin: 0;
 }
-
+/**/
 main .container {
   margin: 0;
   width: calc(100% - 250px);
@@ -123,10 +141,11 @@ main .container {
   gap: 10px;
   grid-auto-flow: dense;
 }
-
+/**/
 main .container .item:hover {
   box-shadow: 1px 1px 5px gray;
 }
+/**/
 main .container .item {
   border: 2px solid #a3c6c4;
   background-color: white;
@@ -134,19 +153,24 @@ main .container .item {
   padding: 10px;
   border-radius: 10px;
 }
+/**/
 main .container .item h3 {
   text-align: center;
   color: #354649;
   margin: 10px 0 0px 0;
 }
+
+/**/
 main .container .item .itemListDiv {
   margin: 15px 0 0 10px;
 }
+/**/
 main .container .item .itemList {
   width: 250px;
   height: 25px;
   padding: 5px;
 }
+/**/
 main .container .item .itemText {
   width: 210px;
   height: 30px;
@@ -156,17 +180,20 @@ main .container .item .itemText {
   left: 10px;
   top: -4px;
 }
+/**/
 main .container .item .itemService {
   width: 250px;
   height: 50px;
   visibility: hidden;
 }
+/**/
 main .container .item .itemService i {
   font-size: 25px;
   margin: 4px 0 0 1px;
   color: #354649;
 }
 /* list model */
+/***/
 .modal {
   width: 100%;
   height: 100%;
@@ -178,7 +205,7 @@ main .container .item .itemService i {
   align-items: center;
   z-index: 9997;
 }
-
+/***/
 .addModal {
   width: 500px;
   height: 500px;
@@ -188,12 +215,14 @@ main .container .item .itemService i {
   border-radius: 10px;
   border: none;
 }
+/***/
 .modalBg {
   z-index: 9998;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
 }
+/***/
 .addModal .modalHeader {
   height: 15%;
   padding: 0;
@@ -201,31 +230,37 @@ main .container .item .itemService i {
   display: flex;
   justify-content: space-between;
 }
+/**/
 .addModal .editModalHeader {
   height: 15%;
   padding: 0;
   text-align: center;
 }
+/**/
 .addModal header h1 {
   display: inline-block;
   color: #6c7a89;
   font-size: 30px;
   margin-top: 25px;
 }
+/**/
 .addModal header div {
   margin-top: 30px;
   visibility: hidden;
 }
+/**/
 .addModal header div i {
   font-size: 35px;
   color: #6c7a89;
   margin-left: 3px;
 }
+/**/
 .addModal .addListDiv {
   position: relative;
   top: 30px;
   text-align: center;
 }
+/**/
 .addModal .addListDiv .addListText {
   width: 300px;
   height: 30px;
@@ -236,10 +271,12 @@ main .container .item .itemService i {
   margin-right: 10px;
   padding-left: 5px;
 }
+/**/
 .addModal .addListDiv .addListText::placeholder {
   font-size: 20px;
   color: #e0e7e9;
 }
+/**/
 .addModal .addListDiv .addListBtn {
   width: 80px;
   height: 35px;
@@ -250,6 +287,7 @@ main .container .item .itemService i {
   font-size: 15px;
   font-weight: bold;
 }
+/**/
 .addModal .addListDiv .selectAddListBtn {
   width: 80px;
   height: 35px;
@@ -260,6 +298,7 @@ main .container .item .itemService i {
   font-size: 15px;
   font-weight: bold;
 }
+/**/
 .addModal .listDiv {
   position: relative;
   top: 60px;
@@ -268,17 +307,21 @@ main .container .item .itemService i {
   overflow: auto;
   width: 450px;
 }
+/**/
 .addModal .listDiv::-webkit-scrollbar {
   width: 12px;
 }
+/**/
 .addModal .listDiv::-webkit-scrollbar-thumb {
   border-radius: 10px;
   background-color: #a3c6c4;
 }
+/**/
 .addModal .listDiv::-webkit-scrollbar-track {
   border-radius: 10px;
   background-color: #e0e7e9;
 }
+/**/
 .addModal .listDiv .list {
   width: 400px;
   display: flex;
@@ -286,9 +329,11 @@ main .container .item .itemService i {
   align-items: center;
   margin: 0 0 10px 25px;
 }
+/**/
 input[type="checkbox"] {
   display: none;
 }
+/**/
 .addModal input[type="checkbox"] + label {
   width: 30px;
   height: 30px;
@@ -297,6 +342,7 @@ input[type="checkbox"] {
   background-color: white;
   position: relative;
 }
+/**/
 .addModal input[type="checkbox"]:checked + label::after {
   content: "✔";
   width: 30px;
@@ -307,6 +353,7 @@ input[type="checkbox"] {
   bottom: 3px;
   color: #6c7a89;
 }
+/**/
 .item input[type="checkbox"] + label {
   width: 20px;
   height: 20px;
@@ -316,6 +363,7 @@ input[type="checkbox"] {
   position: relative;
   display: inline-block;
 }
+/**/
 .item input[type="checkbox"]:checked + label::after {
   content: "✔";
   width: 20px;
@@ -326,6 +374,7 @@ input[type="checkbox"] {
   bottom: 3px;
   color: #a3c6c4;
 }
+/**/
 .addModal .listDiv .text {
   width: 300px;
   height: 32px;
@@ -334,6 +383,7 @@ input[type="checkbox"] {
   border-radius: 5px;
   padding: 1px 8px 0 8px;
 }
+/**/
 .addModal .listDiv .selectText {
   width: 250px;
   height: 32px;
@@ -342,15 +392,18 @@ input[type="checkbox"] {
   border-radius: 5px;
   padding: 1px 8px 0 8px;
 }
+/**/
 .addModal .listDiv .iconBox {
   letter-spacing: 10px;
 }
+/**/
 .addModal .listDiv .iconBox i {
   color: #354649;
   font-size: 25px;
   margin: 4px 0 0 5px;
   text-align: center;
 }
+/**/
 .addModal .addItemBtn {
   width: 120px;
   height: 40px;
@@ -365,7 +418,7 @@ input[type="checkbox"] {
   top: 90%;
   transform: translate(-50%, -50%);
 }
-
+/**/
 .addModal .editItemBtn {
   width: 120px;
   height: 40px;

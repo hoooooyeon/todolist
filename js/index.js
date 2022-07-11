@@ -8,9 +8,6 @@ body.addEventListener("scroll", function () {
   }
 });
 
-const regex = /^[ㄱ-ㅎ|가-힣|a-z|A-Z|0-9|]+$/;
-let chkNum = 0;
-
 // 메뉴바 열고 닫기
 let toggle = 1;
 const openMenu = function () {
@@ -100,6 +97,9 @@ const navChangeColor = function (e) {
 document
   .querySelectorAll(".menuLi")
   .forEach((e) => e.addEventListener("click", navChangeColor));
+
+const regex = /^[ㄱ-ㅎ|가-힣|a-z|A-Z|0-9|]+$/;
+let chkNum = 0;
 
 // 모달 생성
 document.querySelector(".menuLi").addEventListener("click", function () {
