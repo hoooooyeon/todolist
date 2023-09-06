@@ -1,11 +1,11 @@
 export class Nav {
-  constructor(container) {
+  constructor(container, todoBtn) {
     this.toggle = true;
     this.container = container;
     this._nav = document.querySelector(".menuNav");
     this.menuIcon = document.querySelector(".menuIcon");
     this.todoText = document.querySelectorAll(".memuP");
-    this.todoBtn = document.querySelectorAll(".menuLi");
+    this.todoBtn = todoBtn;
     this.currentBtn = null;
   }
 
@@ -60,6 +60,22 @@ export class Nav {
     } else if (this.currentBtn === false) {
       this.currentBtn.classList.add("active_menu");
       // this.currentBtn = this;
+    }
+  };
+
+  // screen max-width: 500px
+  toggleResizeNav = (e) => {
+    if (window.innerWidth > 520 && this.toggle === true) {
+      this.container.style.left = "250px";
+      this.container.style.width = "calc(100% - 250px)";
+    }
+    if (window.innerWidth == 500) {
+      this.container.style.left = "50px";
+      this.container.style.width = "calc(100% - 50px)";
+      this._nav.style.width = "50px";
+      this._nav.style.boxShadow = "none";
+      this.todoText.forEach((e) => e.classList.add("hidden"));
+      this.toggle = false;
     }
   };
 }
