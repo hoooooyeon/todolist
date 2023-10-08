@@ -22,7 +22,8 @@
 
 ## 6. 핵심 기능
 ### 6.1. ToDoItem 
-// 영상 or 이미지
+![todolist (1)](https://github.com/hoooooyeon/todolist/assets/92985196/a17dd151-fbe7-46d8-9299-1b3537654bd1)
+
 - 할 일 목록을 입력하고 이를 ToDoList로 만든다.
 - 할 일 목록 중 완료하거나 중요 표시 효과를 줄 수 있다.
 
@@ -40,7 +41,8 @@
 
 
 ### 6.2. Masonry Layout
-// 영상
+![todolist_masonry](https://github.com/hoooooyeon/todolist/assets/92985196/96502af5-6a15-4bbf-b8e7-8fa48ec594f8)
+
 - 벽돌이 쌓이듯이 빈 공간이 없도록 ToDoList를 배치시키는 Masonry Layout 구현
 
 <details>
