@@ -26,18 +26,6 @@
 - 할 일 목록을 입력하고 이를 ToDoList로 만든다.
 - 할 일 목록 중 완료하거나 중요 표시 효과를 줄 수 있다.
 
-<details>
-<summary>Code</summary>
-<div markdown="1">
-  
-```
-// modal.js
-
-```
-
-</div>
-</details>
-
 
 ### 6.2. Masonry Layout
 ![todolist_masonry](https://github.com/hoooooyeon/todolist/assets/92985196/96502af5-6a15-4bbf-b8e7-8fa48ec594f8)
