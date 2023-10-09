@@ -133,7 +133,7 @@ export class Modal {
     article.appendChild(listDiv);
     const addItemBtn = document.createElement("button");
     addItemBtn.setAttribute("class", "addItemBtn");
-    addItemBtn.innerHTML = "Confirm";
+    addItemBtn.innerHTML = "BUTTON";
     article.appendChild(addItemBtn);
 
     addListBtn.addEventListener("click", this.createMemoList);
