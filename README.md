@@ -18,7 +18,6 @@
 2. 생성된 모달에 text를 입력하고 ADD 버튼을 눌러 할 일 목록을 추가한다.<br>
 3. Confirm 버튼을 눌러 ToDoItem을 생성한다.<br>
 4. 생성 돼 있는 ToDoItem을 선택하여 해당 ToDoItem을 편집할 수 있다.<br>
-5. ToDoList는 Masonry 레이아웃 형식이다.<br>
 
 ## 6. 핵심 기능
 ### 6.1. ToDoItem 
