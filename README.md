@@ -6,7 +6,7 @@
 - 개인 프로젝트
   
 ## 2. 사용 기술
-- Vanilla JS
+- Javascript
 
 ## 3. 링크
 
